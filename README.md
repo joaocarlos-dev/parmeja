@@ -1,5 +1,7 @@
 # ParmeJá
 
+**Acesse:** https://joaocarlos-dev.github.io/parmeja/
+
 Calculadora 100% client-side que recomenda combinações de parmegianas para grupos de 2 a 20 pessoas. Os dados do cardápio ficam em `src/data/menu.ts` e a lógica de otimização, independente da interface, fica em `src/utils/optimizer.ts`.
 
 As recomendações consideram cinco níveis de fome média, consumo estimado, variação dentro do grupo, preço e possível sobra. Os sabores selecionados são opções permitidas; não é obrigatório incluir todos. Cada item informa a quantidade de porções compartilhadas, o tamanho indicado no cardápio, o código e o preço unitário. Quando mais de um sabor está marcado, a seção “Comparar sabores” mostra o melhor pedido só com cada um e quanto ele custa a mais que o mais barato.
